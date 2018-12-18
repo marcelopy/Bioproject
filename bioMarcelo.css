@@ -1,0 +1,176 @@
+*{
+  margin:0;
+  padding:0;
+}
+@font-face {
+  font-family: steamwreck;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/Steamwreck.otf);
+}
+
+body{
+  display:flex;
+  height: 85vh;
+  font-family: steamwreck, serif;
+  font-size: 48px;
+  background-image:url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#wheelDiv{
+  width: 30vw;
+  height:85%;
+}
+
+.screenFrame{
+  position:relative;
+  right:-8%;
+  background-image:url("images/panel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width:60%;
+  height:100%;
+
+
+}
+
+.infoText{
+display:none;
+position: relative;
+top:15%;
+left: 14%;
+height: 70%;
+width:72%;
+font-size: 3vw;
+background:black;
+color:#14ff16;
+display:none;
+font-family: steamwreck, serif;
+text-shadow: 0 0 8px white;
+}
+
+.infoText0 {
+  display:flex;
+  background-image:url("images/steampunkwindow.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  object-fit:cover;
+  overflow: hidden;
+}
+.infoText0 span{
+  position: relative;
+  left:43%;
+  top: 34%;
+  box-sizing: border-box;
+}
+
+.infoText1{
+  padding-left:1vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.infoText1 img{
+  height: 50%;
+}
+
+.marcelo{
+  position: relative;
+  left:7vw;
+}
+.infoText2{
+  padding-left: 1vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.infoText3{
+  box-sizing: border-box;
+  padding-left:1vw;
+  overflow: hidden;
+  font-size: 1.8vw;
+  font-weight: 400;
+
+}
+.infoText3 a{
+  color:#14ff16;
+  display: block;
+  padding-left: 3vw;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+div.container {
+  display: flex;
+  position:relative;
+  width: 30vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+div.container img {
+  width: 30vw;
+  flex-shrink: 0;
+}
+
+.infoText2 span {
+  display: flex;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+  background: #00000000;
+  font-size: 4vw;
+  color: #14ff16;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  right: 0;
+}
+footer{
+  display: flex;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5vw;
+  text-decoration: none;
+  background: rgba(255,255,255,0.5);
+}
+
+.clockframe{
+  box-sizing: border-box;
+  position: absolute;
+  bottom:0 ;
+  left: 1vw;
+}
+
+.clockframe img {
+  height: 10vw;
+  width: 26vw;
+}
+
+.clockbox{
+  position:absolute;
+  bottom: 3.7vw;
+  left: 4.3vw;
+  color: #14ff1666;
+  text-shadow: 0 0 8px green;
+  font-size: 3vw;
+}
+.smoke{
+  position:absolute;
+  z-index: 3;
+  bottom:10vw;
+  left:10vw;
+  opacity:0.3;
+}
+
+.smoke img {
+  width:60%;
+}
