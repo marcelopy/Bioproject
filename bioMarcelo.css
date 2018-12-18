@@ -19,8 +19,8 @@ body{
   background-size: cover;
 }
 #wheelDiv{
-  width: 30vw;
-  height:85%;
+  /* width: 30vw; */
+  /* height:85%; */
 }
 
 .screenFrame{
