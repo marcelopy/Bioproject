@@ -19,13 +19,14 @@ body{
   background-size: cover;
 }
 #wheelDiv{
-  /* width: 30vw; */
-  /* height:85%; */
+  width: 30vw;
+  height:85%;
 }
 
 .screenFrame{
   position:relative;
-  right:-2%;
+  top:2%;
+  right:-8%;
   background-image:url("images/panel.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
