@@ -2,6 +2,8 @@
   margin:0;
   padding:0;
 }
+
+
 @font-face {
   font-family: steamwreck;
   font-style: normal;
@@ -19,31 +21,29 @@ body{
   background-size: cover;
 }
 #wheelDiv{
-  width: 30vw;
-  height:85%;
+  width: 33vw;
+  height:100%;
 }
 
 .screenFrame{
   position:relative;
   top:2%;
-  right:-8%;
+  right:-6%;
   background-image:url("images/panel.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   width:60%;
   height:100%;
-
-
 }
 
 .infoText{
 display:none;
 position: relative;
-top:15%;
-left: 14%;
-height: 70%;
-width:72%;
+top:6%;
+left: 6%;
+height: 88%;
+width:88%;
 font-size: 3vw;
 background:black;
 color:#14ff16;
@@ -63,8 +63,8 @@ text-shadow: 0 0 8px white;
 }
 .infoText0 span{
   position: relative;
-  left:43%;
-  top: 34%;
+  left:44.3%;
+  top: 37%;
   box-sizing: border-box;
 }
 
@@ -143,35 +143,3 @@ footer{
   text-decoration: none;
   background: rgba(255,255,255,0.5);
 }
-/*
-.clockframe{
-  box-sizing: border-box;
-  position: absolute;
-  bottom:0 ;
-  left: 1vw;
-}
-
-.clockframe img {
-  height: 10vw;
-  width: 26vw;
-}
-
-.clockbox{
-  position:absolute;
-  bottom: 3.7vw;
-  left: 4.3vw;
-  color: #14ff1666;
-  text-shadow: 0 0 8px green;
-  font-size: 3vw;
-}
-.smoke{
-  position:absolute;
-  z-index: 3;
-  bottom:10vw;
-  left:10vw;
-  opacity:0.3;
-}
-
-.smoke img {
-  width:60%;
-} */
